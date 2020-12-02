@@ -235,7 +235,7 @@ class TinyGsmBG96 : public TinyGsmModem<TinyGsmBG96>,
    */
  public:
   RegStatus getRegistrationStatus() {
-    return (RegStatus)getRegistrationStatusXREG("CREG");
+    return (RegStatus)getRegistrationStatusXREG("CEREG");
   }
 
  protected:
